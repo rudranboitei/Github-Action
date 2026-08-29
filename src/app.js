@@ -16,7 +16,7 @@ let items = [
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to the Demo Rudra Narayan Boitei GitHub Actions API!',
+    message: "Deployed automatically by GitHub Actions!",
     status: 'online',
     version: '1.0.0',
     endpoints: {
